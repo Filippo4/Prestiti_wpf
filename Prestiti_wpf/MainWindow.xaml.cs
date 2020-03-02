@@ -29,7 +29,7 @@ namespace Prestiti_wpf
         {
             string nome = txt_nome.Text;
             string cognome = txt_cognome.Text;
-
+            DateTime giorno = dta_data.SelectedDate.Value;
             int percentuale = int.Parse(txt_perc.Text);
             int rata = int.Parse(txt_nrate.Text);
             int importo = int.Parse(txt_importo.Text);
@@ -38,6 +38,11 @@ namespace Prestiti_wpf
             int soldirata = import / rata;
             txt_rest.Text = import.ToString();
             txt_importoRata.Text = soldirata.ToString();
+        }
+
+        private void cbx_città_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

@@ -20,7 +20,7 @@
         <Label Content="Sesso" HorizontalAlignment="Left" Margin="35,137,0,0" VerticalAlignment="Top" Width="75"/>
         <Label Content="Data di nascita" HorizontalAlignment="Left" Margin="35,191,0,0" VerticalAlignment="Top"/>
         <Label Content="Città di residenza" HorizontalAlignment="Left" Margin="35,245,0,0" VerticalAlignment="Top" Width="107"/>
-        <ComboBox x:Name="cbx_città" HorizontalAlignment="Left" Margin="156,247,0,0" VerticalAlignment="Top" Width="120"/>
+        <ComboBox x:Name="cbx_città" HorizontalAlignment="Left" Margin="156,247,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="cbx_città_SelectionChanged"/>
         <DatePicker x:Name="dta_data" HorizontalAlignment="Left" Margin="156,193,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="rd_f" Content="F" HorizontalAlignment="Left" Margin="156,147,0,0" VerticalAlignment="Top"/>
         <RadioButton x:Name="rd_m" Content="M" HorizontalAlignment="Left" Margin="216,147,0,0" VerticalAlignment="Top" ClickMode="Release"/>
